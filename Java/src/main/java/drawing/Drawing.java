@@ -16,7 +16,7 @@ import java.util.List;
  */
 public class Drawing {
 
-    public List<Shape> shapes;
+    private List<Shape> shapes;
 
     public Drawing(List<Shape> shapes) {
         this.shapes = shapes;
