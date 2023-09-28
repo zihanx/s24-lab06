@@ -1,5 +1,5 @@
 /**
- * Refactor Exercise 1: Extract Parameter Object
+ * Refactor Task 2.
  *
  * @author Zishen Wen (F22), Deyuan Chen (S22)
  */

@@ -1,5 +1,5 @@
 /**
- * Refactor Exercise 4: Frogger
+ * Refactor Task 1.
  *
  * @author Zishen Wen (F22), Deyuan Chen (S22)
  */
