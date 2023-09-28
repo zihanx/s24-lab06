@@ -11,7 +11,7 @@ public class Frogger {
     private final Road road;
     private int position;
     
-    // Field for task 2. Anything to add?
+    // Field for task 2. Anything to add/change?
     private final Records records;
     private String firstName, lastName, phoneNumber, zipCode, state, gender;
 
