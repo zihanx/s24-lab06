@@ -1,10 +1,10 @@
-package records;
+package frogger;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Refactor Exercise 1: Extract Parameter Object
+ * Refactor Task 2.
  *
  * @author Zishen Wen (F22), Deyuan Chen (S22)
  */
@@ -16,14 +16,14 @@ public class Records {
     }
 
     /**
-     * Adds a person's record.
+     * Adds a frogger's record.
      *
-     * @param firstName   first name of the person
-     * @param lastName    last name of the person
-     * @param phoneNumber phone number of the person
-     * @param zipCode     zip code of the person
-     * @param state       state of the person
-     * @param gender      gender of the person
+     * @param firstName   first name of the frogger
+     * @param lastName    last name of the frogger
+     * @param phoneNumber phone number of the frogger
+     * @param zipCode     zip code of the frogger
+     * @param state       state of the frogger
+     * @param gender      gender of the frogger
      * @return Return false if the record has existed. Else, return true.
      */
     public boolean addRecord(String firstName, String lastName, String phoneNumber,

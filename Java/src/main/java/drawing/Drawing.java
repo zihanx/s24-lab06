@@ -10,7 +10,7 @@ import java.io.Writer;
 import java.util.List;
 
 /**
- * Refactor Exercise 3: (Mis-)Shaped
+ * Refactor Task 3: (Mis-)Shaped
  *
  * @author Zishen Wen (F22), Deyuan Chen (S22)
  */
