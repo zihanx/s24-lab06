@@ -1,6 +1,5 @@
 package drawing.shapes;
 
-import drawing.formatting.Formatter;
 import drawing.writing.JPEGWriter;
 import drawing.writing.PNGWriter;
 
@@ -38,16 +37,4 @@ public interface Shape {
             e.printStackTrace();
         }
     }
-
-    /**
-     * Draws lines to file.
-     */
-    default void draw(Writer writer, Formatter formatter) throws IOException {
-      Line[] lines = this.toLines();
-      for (Line line : lines) {
-          writer.write(formatter.format(line));
-      }
-    }
-
-
 }
