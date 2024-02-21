@@ -30,10 +30,14 @@ public class Drawing {
      */
     public void draw(String format, String filename) {
         // TODO: Do you notice any issues here?
+        // The duplicate here is unneccessary.
+        // Use another class to getWriter or simply first setup the writer then draw the shapes.
         if (format.equals("jpeg")) {
             try (Writer writer = new JPEGWriter(filename + ".jpeg")) {
                 for (Shape shape : this.shapes) {
                     // TODO: What is the issue of the behavior here?
+                    // The whole draw process can be done in Shape class.
+                    // Encapsulate it in the Shape class instead of here. 
                     Line[] lines = shape.toLines();
                     shape.draw(writer, lines);
                 }
